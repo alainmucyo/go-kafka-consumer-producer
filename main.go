@@ -38,11 +38,11 @@ func main() {
 }
 
 func HandleNew(message []byte) {
-	println("Handle test func")
+	println("Handle New func")
 	println(string(message))
 }
 func HandleTest(message []byte) {
-	println("Handle USSD request")
+	println("Handle test func")
 	println(string(message))
 }
 func MainConsumer(client consumer.Client) {
